@@ -1,0 +1,11 @@
+venv/
+__pycache__/
+*.pyc
+.env
+.idea/
+.vscode/
+.terraform/
+*.tfstate
+*.tfstate.backup
+coverage/
+htmlcov/
