@@ -61,39 +61,6 @@ A production-style end-to-end DevOps project demonstrating CI/CD, containerizati
 
 ---
 
-# Tech Stack
-
-## DevOps
-
-* Jenkins
-* Docker
-* Kubernetes
-* Helm
-* Terraform
-
-## Monitoring
-
-* Prometheus
-* Grafana
-
-## Code Quality
-
-* SonarQube
-
-## Backend
-
-* FastAPI
-* Python 3.11
-* Prometheus Client
-
-## Platform
-
-* kind Kubernetes Cluster
-* Docker Desktop
-* GitHub Webhooks
-
----
-
 # Project Structure
 
 ```text
@@ -111,48 +78,12 @@ devops-ai-platform/
 │   ├── manifests/
 │   └── helm/
 │
-├── monitoring/
-│
 ├── docs/
 │
 ├── sonar-project.properties
 │
 └── README.md
 ```
-
----
-
-# CI/CD Pipeline
-
-```text
-GitHub Push
-    ↓
-Webhook Trigger
-    ↓
-Jenkins Pipeline
-    ↓
-SonarQube Scan
-    ↓
-Docker Build
-    ↓
-Kubernetes Deployment
-    ↓
-Helm Upgrade
-```
-
----
-
-# Monitoring Dashboard
-
-The Grafana dashboard includes:
-
-* Active monitoring targets
-* Running pod count
-* Cluster CPU usage
-* Cluster memory usage
-* HPA replica tracking
-* Namespace distribution
-* Node resource utilization
 
 ---
 
@@ -368,22 +299,6 @@ Includes:
 
 ---
 
-# Future Improvements
-
-* AWS EKS deployment
-* Terraform infrastructure provisioning
-* Ansible configuration management
-* HashiCorp Vault integration
-* JFrog Artifactory integration
-* GitHub Actions migration
-* ArgoCD GitOps workflow
-* Ingress Controller
-* Slack alerts
-* Persistent Volumes
-* Canary deployments
-
----
-
 # Learning Outcomes
 
 This project demonstrates practical experience with:
@@ -406,5 +321,3 @@ AIML Student | DevOps & AI Enthusiast
 
 GitHub:
 [https://github.com/Zaid2044](https://github.com/Zaid2044)
-
-```
