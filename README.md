@@ -6,27 +6,7 @@ A production-style end-to-end DevOps project demonstrating CI/CD, containerizati
 
 # Architecture
 
-```text
-GitHub
-   ↓
-GitHub Webhook
-   ↓
-Jenkins CI/CD Pipeline
-   ↓
-SonarQube Code Analysis
-   ↓
-Docker Image Build
-   ↓
-kind Kubernetes Cluster
-   ↓
-Helm Deployment
-   ↓
-Horizontal Pod Autoscaler
-   ↓
-Prometheus Monitoring
-   ↓
-Grafana Dashboards
-````
+![Architecture Diagram](./docs/architecture.png)
 
 ---
 
@@ -372,15 +352,19 @@ Includes:
 
 ## Jenkins Pipeline
 
-Add screenshot here.
+![Jenkins Pipeline](./docs/jenkins-pipeline.png)
+
+---
 
 ## Grafana Dashboard
 
-Add screenshot here.
+![Grafana Dashboard](./docs/grafana-dashboard.png)
+
+---
 
 ## SonarQube Analysis
 
-Add screenshot here.
+![SonarQube Analysis](./docs/sonarqube-analysis.png)
 
 ---
 
